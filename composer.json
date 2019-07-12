@@ -1,6 +1,7 @@
 {
     "name": "neosknight/todolist",
     "description": "To-do List component",
+    "version": "0.0.1",
     "authors": [
         {
             "name": "Luka",
