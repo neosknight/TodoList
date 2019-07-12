@@ -13,7 +13,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "neosknight\\todolist\\TodoListServiceProvider"
+                "Neosknight\\TodoList\\TodoListServiceProvider"
             ]
         }
     },
