@@ -17,7 +17,7 @@ class TodolistController extends Controller
     {
         $tasks = Task::all();
         $submit = 'Add';
-        return view('wisdmlabs.todolist.list', compact('tasks', 'submit'));
+        return view('neosknight.todolist.list', compact('tasks', 'submit'));
     }
 
     public function store()
@@ -32,7 +32,7 @@ class TodolistController extends Controller
         $tasks = Task::all();
         $task = $tasks->find($id);
         $submit = 'Update';
-        return view('wisdmlabs.todolist.list', compact('tasks', 'task', 'submit'));
+        return view('neosknight.todolist.list', compact('tasks', 'task', 'submit'));
     }
 
     public function update($id)
