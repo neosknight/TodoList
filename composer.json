@@ -1,0 +1,25 @@
+{
+    "name": "neosknight/todolist",
+    "description": "To-do List component",
+    "authors": [
+        {
+            "name": "Luka",
+            "email": "luka.dev94@gmail.com"
+        }
+    ],
+    "require": {
+        "laravelcollective/html": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "neosknight\\todolist\\TodoListServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Neosknight\\TodoList\\": "src/"
+        }
+    }
+}
